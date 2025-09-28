@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|c:\\users\\sayan\\desktop\\progi\\c#\\backsib\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|c:\\users\\sayan\\desktop\\progi\\c#\\backsib\\controllers\\reminderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|solutionrelative:controllers\\reminderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|c:\\users\\sayan\\desktop\\progi\\c#\\backsib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|c:\\users\\sayan\\desktop\\progi\\c#\\backsib\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|solutionrelative:controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|c:\\users\\sayan\\desktop\\progi\\c#\\backsib\\models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|solutionrelative:models\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|c:\\users\\sayan\\desktop\\progi\\c#\\backsib\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF64FA8-0A8A-4842-88BF-8F8BDB0A01A8}|BackSib.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StatusController.cs",
+              "ToolTip": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Controllers\\StatusController.cs",
+              "RelativeToolTip": "Controllers\\StatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T07:53:29.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RemindersController.cs",
+              "DocumentMoniker": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Controllers\\RemindersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RemindersController.cs",
+              "ToolTip": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Controllers\\RemindersController.cs",
+              "RelativeToolTip": "Controllers\\RemindersController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwCgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:52:28.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:09:07.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:07:57.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:03:38.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Models\\Reminder.cs",
+              "RelativeDocumentMoniker": "Models\\Reminder.cs",
+              "ToolTip": "C:\\Users\\sayan\\Desktop\\Progi\\C#\\BackSib\\Models\\Reminder.cs",
+              "RelativeToolTip": "Models\\Reminder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T05:59:44.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
