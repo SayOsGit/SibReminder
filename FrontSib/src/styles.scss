@@ -1,0 +1,53 @@
+:root {
+  --dark-color: #000000;
+  --light-color: #FFFFFF;
+  --border-color: #333;
+  --btn-color:  #8a2be2;
+}
+
+body, html {
+  background-color: var(--dark-color) !important;
+  color: var(--light-color) !important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-purple {
+  background-color: var(--btn-color) ; /* Фиолетовый (цвет по умолчанию - "Blue Violet") */
+  border-color: var(--btn-color);
+  color: var(--light-color);
+}
+
+.table-dark-custom {
+  background-color: var(--dark-color) !important;
+  color: var(--light-color);
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.table-dark-custom th {
+  background-color: #111 !important;
+  color: var(--light-color) !important;
+  font-weight: bold;
+  border-color: var(--border-color) !important;
+  padding: 12px;
+}
+
+.table-dark-custom td,
+.table-dark-custom th {
+  background-color: var(--dark-color) !important;
+  color: var(--light-color) !important;
+  border-color: var(--border-color) !important;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.table-dark-custom tbody tr:hover td {
+  background-color: #1a1a1a !important;
+  transition: background-color 0.2s ease;
+}
+.container {
+  padding: 20px;
+}

@@ -1,0 +1,21 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-auto">
+      <h1>Напоминания</h1>
+    </div>
+  </div>
+</div>
+
+<app-table [reminder] = "reminders" [statuses]="statuss" />
+
+<div  class="container mt-4">
+    <button
+      type="button"
+      class="btn btn-primary btn-purple"
+      (click)="goNewReminder()">
+      Добавить напоминание
+    </button>
+
+</div>
+
+

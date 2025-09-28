@@ -1,0 +1,30 @@
+<div class="container mt-4">
+  <table class="table table-bordered table-striped table-hover table-dark-custom">
+    <thead>
+      <tr>
+        <th>Статус</th>
+        <th>Дата и время создания</th>
+        <th>Дата и время выполнения</th>
+        <th>Краткое описание</th>
+      </tr>
+    </thead>
+    <tbody>
+        @for(reminder of reminder ; track reminder.id){
+            <tr (dblclick)="onEdit(reminder)" style="cursor: pointer;">
+                <td>{{ statusName(reminder.statusId) }}</td>
+                <td>{{ reminder.dateCreate | date:'dd MMMM yyyy, HH:mm':'': 'ru-RU'}}</td>
+                <td>
+                  @if(reminder.dateFinish){
+                  {{ reminder.dateFinish | date:'dd MMMM yyyy, HH:mm':'': 'ru-RU'}}
+                  }
+                  @else {
+                      Нет даты
+                  }
+                  </td>
+                <td>{{ reminder.shortDesc }}</td>
+            </tr>
+        }
+    </tbody>
+  </table>
+</div>    
+ 

@@ -1,0 +1,67 @@
+<div class="container mt-4">
+  <form 
+  [formGroup]="form" 
+  (ngSubmit)="onSave()"
+  >
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <label for="dateCreate" class="form-label">Дата и время создания</label>
+        <input
+          type="datetime-local"
+          id="dateCreate"
+          class="form-control"
+          formControlName="dateCreate" />
+      </div>
+      <div class="col-md-4">
+        <label for="dateFinish" class="form-label">Дата и время выполнения</label>
+        <input
+          type="datetime-local"
+          id="dateFinish"
+          class="form-control"
+          formControlName="dateFinish" />
+      </div>
+      <div class="col-md-4">
+        <label for="status" class="form-label">Статус</label>
+        <select
+          id="status"
+          class="form-control"
+          formControlName="status">
+          <option value="">Выберите статус</option>
+          @for (status of statuses; track status.id) {
+            <option [value]="status.id">{{ status.name }}</option>
+          }
+        </select>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="shortDesc" class="form-label">Краткое описание</label>
+      <input
+        type="text"
+        id="shortDesc"
+        class="form-control"
+        placeholder="Введите краткое описание"
+        formControlName="shortDesc" />
+    </div>
+    <div class="mb-3">
+      <label for="fullDesc" class="form-label">Полное описание</label>
+      <textarea
+        id="fullDesc"
+        class="form-control"
+        rows="5"
+        placeholder="Введите подробное описание"
+        formControlName="fullDesc"></textarea>
+    </div>
+    <button
+      type="button"
+      class="btn btn-secondary me-2"
+      (click)="goBack()">
+      Назад
+    </button>
+    <button
+      type="submit"
+      class="btn btn-primary btn-purple"
+      >
+      Сохранить
+    </button>
+  </form>
+</div>
