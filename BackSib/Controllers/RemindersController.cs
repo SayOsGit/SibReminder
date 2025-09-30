@@ -53,7 +53,12 @@ namespace BackSib.Controllers
         {
             if (id != reminder.Id)
             {
-                return BadRequest();
+                return Problem(
+                    title: "ID не совпадают",
+                    detail: $"ID в URL ({id}) не совпадает с ID в теле ({reminder.Id})",
+                    statusCode: StatusCodes.Status400BadRequest,
+                    instance: $"/api/Reminders/{id}"
+                );
             }
 
             _context.Entry(reminder).State = EntityState.Modified;
@@ -68,10 +73,13 @@ namespace BackSib.Controllers
                 {
                     return NotFound();
                 }
-                else
-                {
-                    throw;
-                }
+
+                return Problem(
+                   title: "Конфликт обновления",
+                   detail: $"Запись {id} была изменена другим пользователем",
+                   statusCode: StatusCodes.Status409Conflict,
+                   instance: $"/api/Reminders/{id}"
+               );
             }
 
             return NoContent();
